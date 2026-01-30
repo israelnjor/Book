@@ -21,7 +21,7 @@ public class Book {
   }
   public void setAuthor(String author) {this.author = author;}
   public void setIsbn(String isbn) {this.isbn = isbn;}
-  public void setPrice(int pageCount)  {this.pageCount = pageCount;}
+  public void setPageCount(int pageCount)  {this.pageCount = pageCount;}
   public void setPrice(double price( {this.price = price}
 
 //GETTERS
