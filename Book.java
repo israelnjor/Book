@@ -13,6 +13,7 @@ public class Book {
     this.isbn = isbn;
     this.pageCount = pageCount;
     this.price = price;
+  }
     
 //Setters
   public void setTitle(String title) {
