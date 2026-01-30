@@ -22,18 +22,19 @@ public class Book {
   public void setAuthor(String author) {this.author = author;}
   public void setIsbn(String isbn) {this.isbn = isbn;}
   public void setPageCount(int pageCount)  {this.pageCount = pageCount;}
-  public void setPrice(double price( {this.price = price}
+  public void setPrice(double price) {this.price = price}
 
 //GETTERS
   public String getTitle() {return title;}
   public String getAuthor() {return author;}
   public String getIsbn() {return isbn;}
   public int getPageCount() {return pageCount;}
+  public double getPrice() {return price;}
 
 //FULL GETTER
   public String getFullDetails() {
-    return "Title: " + title +
-      ", Author: " + author +
-      ", ISBN: " + isbn +
-      ", No. of Pages: " + pageCount +
-      ", Price (GhC): " + price;
+    return "Title: " + title + "\n" +
+      ", Author: " + author + "\n" +
+      ", ISBN: " + isbn + "\n" +
+      ", No. of Pages: " + pageCount + "\n" +
+      ", Price (GhC): " + price; 
