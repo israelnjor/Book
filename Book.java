@@ -34,7 +34,7 @@ public class Book {
 //FULL GETTER
   public String getFullDetails() {
     return "Title: " + title + "\n" +
-      ", Author: " + author + "\n" +
-      ", ISBN: " + isbn + "\n" +
-      ", No. of Pages: " + pageCount + "\n" +
-      ", Price (GhC): " + price; 
+      "Author: " + author + "\n" +
+      "ISBN: " + isbn + "\n" +
+      "No. of Pages: " + pageCount + "\n" +
+      "Price (GhC): " + price + "$"; 
